@@ -1,0 +1,19 @@
+/* buttons */
+.btn{min-height:48px;padding:0 20px;border-radius:14px;border:1.5px solid var(--line);background:var(--surface);font-weight:700;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:transform .12s,background .15s,border-color .15s}
+.btn:hover{border-color:var(--teal)}
+.btn:active{transform:scale(.97)}
+.btn.primary{background:var(--teal);border-color:var(--teal);color:var(--on-teal)}
+.btn.primary:hover{filter:brightness(1.07)}
+.btn.warn{background:var(--amber-tint);border-color:var(--amber);color:var(--amber)}
+.btn.sm{min-height:40px;padding:0 14px;border-radius:12px;font-size:14px}
+.btn[disabled]{opacity:.45;cursor:not-allowed;transform:none}
+.btn.block{width:100%}
+.icon-btn{width:44px;height:44px;border-radius:12px;border:1.5px solid var(--line);background:var(--surface);display:grid;place-items:center}
+.icon-btn:hover{border-color:var(--teal)}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;padding:4px 10px;border-radius:999px;background:var(--surface-2);color:var(--muted);white-space:nowrap}
+.pill i{width:8px;height:8px;border-radius:50%;background:currentColor;display:block}
+.pill.ok{background:var(--teal-tint);color:var(--teal-ink)}
+.pill.warn{background:var(--amber-tint);color:var(--amber)}
+.pill.bad{background:var(--red-tint);color:var(--red)}
+.pill.vio{background:var(--violet-tint);color:var(--violet)}
+

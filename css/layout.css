@@ -1,0 +1,6 @@
+/* screens */
+.screen{min-height:100vh;padding-block:calc(20px + env(safe-area-inset-top,0px)) calc(28px + env(safe-area-inset-bottom,0px))}
+.screen.enter{animation:enter .32s ease both}
+@keyframes enter{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.screen:focus{outline:none}
+
